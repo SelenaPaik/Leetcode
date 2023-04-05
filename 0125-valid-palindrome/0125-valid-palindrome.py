@@ -18,7 +18,7 @@ class Solution:
                 start +=1
             if s[end].isalpha() == False and s[end].isnumeric() == False:
                 end -=1
-            print(start, end)
+
             if (s[start].isalpha()==True or s[start].isnumeric()==True) and (s[end].isalpha()==True or s[end].isnumeric()==True):
                 s1 += s[start]
                 s2+= s[end]
