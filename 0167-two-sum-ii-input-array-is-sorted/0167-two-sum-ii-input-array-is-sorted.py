@@ -17,8 +17,8 @@
 #     
 # [Second trial]
 # 
-# use pointer
-# utilize 'sorted' feature
+# use pointer in each side r,l
+# utilize 'sorted' feature -> if sum is too big, l--, if sum is to small, r ++
 # find 2 numbers
 # 
 
