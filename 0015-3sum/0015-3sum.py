@@ -46,6 +46,7 @@ class Solution:
                     elif nums[l] + nums[r] > target:
                         r-=1
                     elif nums[l] + nums[r] == target:
+                        # remove duplicates
                         if [nums[i],nums[l],nums[r]] not in ans:
                             ans.append([nums[i],nums[l],nums[r]])
                         l+=1
