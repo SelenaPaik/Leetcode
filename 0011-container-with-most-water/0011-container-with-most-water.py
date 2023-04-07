@@ -1,4 +1,5 @@
 
+# use pointers
 # l,r = 0, len(height)-1
 # if height[r] < height[l]: 
 #     r-=1
