@@ -1,9 +1,8 @@
 # intuition
-# 1. dictionary: count the number of each alphabet in s1
-# 2. if character in s2 exists in dictionary, count -=1
-# 3. else, check next character(do nothing)
-# 4. when every values in dictionary are 0, return True
-
+# 1. dic1: count the number of each alphabet in s1
+# 2. for characters in window,
+# 3. put characters in dic2
+# 4. if dic1 == dic2, return true
 # use sliding window, window size = len(s1)
 
 
