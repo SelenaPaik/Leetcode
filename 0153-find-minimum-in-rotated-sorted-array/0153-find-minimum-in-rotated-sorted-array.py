@@ -16,16 +16,14 @@ class Solution:
         mid = int((l+r)/2)
         res = nums[mid]
         
-        if nums[l] < nums[r] : return nums[l]
-        
         while(l<=r):
+            if nums[l] < nums[r] : 
+                res = min(res, nums[l])
+                break
+                
             mid = int((l+r)/2)
-            if nums[r]<res:
-                res = nums[r]
-            if nums[l]<res:
-                res = nums[l]
-            if nums[mid]<res:
-                res = nums[mid]
+            res = min(res, nums[mid])
+
             if nums[l]> nums[mid]: 
                 r = mid-1
             else:
